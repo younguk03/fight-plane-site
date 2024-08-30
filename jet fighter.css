@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(235, 235, 235);
+  }
+  
+  .li {
+      display: inline-block;
+      font-size: 17px;
+      text-decoration: none;
+      padding: 14px;
+  }
+  .menu {
+      list-style: none;
+      text-align: center;
+  }
+  .fighter1 {
+      background-color: rgb(190, 190, 190);
+      margin: 0;
+      padding: 0;
+  }
+  .title {
+      color: black;
+      text-align: center;
+      font-size: 50px;
+      padding: 15px;
+      border-bottom: 2px solid black;
+  }
+  .a {
+      color: black;
+      text-decoration: none;
+  }
+  .li:hover {
+      background-color: black;
+  }
+  li a:hover {
+      background-color: black;
+      color: rgb(219, 219, 219);
+  }
+
+.h1{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.first-figt-plane{
+    margin: 20px 40px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+.one,.two,.three,.four,.five,.six {
+    margin: 13px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 260px;
+    width: 300px;
+}
+.one:hover, .two:hover, .three:hover, .four:hover,.five:hover, .six:hover{
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px rgb(100, 100, 100);
+} 
+
+@media(max-width: 1000px) {
+    .first-figt-plane{
+        margin: 20px 60px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+.img-one,.img-two,.img-three,.img-four,.img-five,.img-six {
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h2-one,.h2-two,.h2-three, .h2-four,.h2-five,.h2-six{
+    padding-top: 12px;
+    text-align: center;
+}
